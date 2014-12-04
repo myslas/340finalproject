@@ -1,5 +1,5 @@
 <?
-	$db = pg_connect("host=localhost dbname=yslasm user=yslasm password=mikematt44");
+	$db = pg_connect("host=localhost port=5432 dbname=yslasm user=yslasm password=mikematt44");
 	$agencies = $db->query('SELECT * FROM agencies');
 ?>
 <html> 
