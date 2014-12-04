@@ -1,5 +1,5 @@
 <?php
-	$db = pg_connect("host=localhost port=5432 dbname=yslasm password=mikematt44");
+	$db = pg_connect("dbname=yslasm user=yslasm password=mikematt44");
 ?>
 
 <html>
